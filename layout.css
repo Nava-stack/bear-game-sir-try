@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.page-container {
+  border: 1px solid black;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+}
+
+.game-area {
+  border: 1px solid black;
+  width: 1100px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: url(source/Background/L1.jpg);
+}
+
+.game-info {
+  border: 1px solid black;
+  /* width: calc(100%-1000px); */
+  height: 100%;
+  width: 250px;
+  /* background-color: green; */
+}
+
+.bear-con {
+  /* border: 1px solid black; */
+  position: absolute;
+  height: 100px;
+  width: 70px;
+  top: 548px;
+  left: -6px;
+  z-index: 5;
+}
+
+.bear-con > img {
+  height: 100%;
+  width: 100%;
+}
+
+.trees {
+  position: absolute;
+  z-index: 99;
+}
+
+.tree-1 {
+  bottom: 20px;
+  height: 200px;
+  left: 100px;
+}
